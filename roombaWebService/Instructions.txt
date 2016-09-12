@@ -1,4 +1,4 @@
-Hello Yoti. In order to run this webservice you need to deploy the war file using either Apache Tomcat, Oracle Weblogic or one of your development environments.
+In order to run this webservice you need to deploy the war file using either Apache Tomcat, Oracle Weblogic or one of your development environments.
 Once deployed, you can call the service using http://localhost:8080/roombaWebService/hoover with the sample request:
 {
   "roomSize" : [5, 5],
