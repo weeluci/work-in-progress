@@ -1,0 +1,14 @@
+Hello Yoti. In order to run this webservice you need to deploy the war file using either Apache Tomcat, Oracle Weblogic or one of your development environments.
+Once deployed, you can call the service using http://localhost:8080/roombaWebService/hoover with the sample request:
+{
+  "roomSize" : [5, 5],
+  "coords" : [1, 2],
+  "patches" : [
+    [1, 0],
+    [2, 2],
+    [2, 3]
+  ],
+  "instructions" : "NNESEESWNWW"
+}
+
+If you are using the Advanced Rest Client from Chrome extension tool, please add this header: Content-Type: application/json. If you are using SoapUI the header is not needed.
