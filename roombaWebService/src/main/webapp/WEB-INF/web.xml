@@ -15,5 +15,10 @@
 		<servlet-name>roomba</servlet-name>
 		<url-pattern>/roomba.html</url-pattern>
 	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>roomba</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
 
 </web-app>
